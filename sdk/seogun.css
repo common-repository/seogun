@@ -1,0 +1,273 @@
+.seogun_dialog{
+    position: fixed !important;
+    right: inherit;
+    top: 90px !important;
+}
+
+.major-publishing-actions{
+    padding: 10px;
+    clear: both;
+    border-top: 1px solid #ddd;
+    background: #f5f5f5;
+
+    /* Fix wordpress .inner issue */
+    position: relative;
+    left: -12px;
+    bottom: -12px;
+    width: calc(100% + 4px);
+}
+
+
+.rtl .major-publishing-actions{
+  left: 0px;
+  right: -12px;
+}
+
+.publishing-action
+{
+    text-align: right;
+    float: right;
+    line-height: 1.9;
+}
+
+.rtl .publishing-action{
+  float: left;
+}
+
+
+.SEOGUN-box
+{
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+.SEOGUN-box ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+.SEOGUN-box ul li{
+    list-style: none;
+    padding: 0px 10px;
+    margin-bottom: 7px;
+
+}
+
+.SEOGUN-box ul li div.seogun-icon{
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.rtl .SEOGUN-box ul li div.seogun-icon{
+  float: right;
+  margin-left: 10px;
+}
+
+.SEOGUN-box ul li p{
+  padding: 0px;
+  margin: 0px;
+  line-height: 30px;
+}
+
+
+.seogun_error_box{
+  display: none;
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  margin-top: -15px;
+}
+
+.seogun_error_box_nokeywords
+{
+  display: block;
+  background: #fdeea5;
+  border-color: #f5dac8;
+  color: #000;
+}
+
+.seogun_network_error,.seogun_final_step{
+  width: 300px;
+  max-width: 100%;
+  margin: auto;
+  display: none;
+}
+
+
+
+.seogun_network_error h4,.seogun_final_step h4{
+  text-align: center;
+}
+
+
+.seogun-chip{
+  display: inline-flex;
+  flex-direction: row;
+  background-color: #ebebeb;
+  border: none;
+  cursor: default;
+  height: 36px;
+  outline: none;
+  padding: 0;
+  font-size: 14px;
+  font-color: #1e1e1e;
+  font-family: "Open Sans", sans-serif;
+  white-space: nowrap;
+  align-items: center;
+  border-radius: 16px;
+  vertical-align: middle;
+  text-decoration: none;
+  justify-content: center;
+  padding: 0px 10px;
+  background-position: center;
+  transition: background 0.8s;
+  margin-bottom: 9px;
+  margin-left: 9px;
+}
+
+
+.seogun-chip:hover {
+  background: #ebebeb radial-gradient(circle, transparent 1%, #cecccc 1%) center/15000%;
+}
+.seogun-chip:active {
+  background-color: #bcb9b9;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.seogun-chip-head{
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  align-items: center;
+  user-select: none;
+  border-radius: 50%;
+  justify-content: center;
+  width: 25px;
+  color: #fff;
+  height: 25px;
+  font-size: 20px;
+  margin-right: -8px;
+  background-image: url('./icons/sticky-note.svg');
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.seogun-chip-content{
+    cursor: inherit;
+    display: flex;
+    color:#000;
+    align-items: center;
+    user-select: none;
+    white-space: nowrap;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.seogun-chip-svg{
+  color: #6b6b6b;
+  cursor: pointer;
+  height: auto;
+  margin: 4px 0px 0px 0px;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 24px;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  user-select: none;
+  flex-shrink: 0;
+}
+.seogun-chip-svg:hover{
+    color: #111;
+}
+
+.seogun-chip-head.seogun-chip-tag
+{
+  background-image: url('./icons/tag.svg');
+}
+
+.seogun-chip-head.seogun-chip-person
+{
+  background-image: url('./icons/user.svg');
+}
+
+.seogun-chip-head.seogun-chip-commercial_item
+{
+  background-image: url('./icons/shopping-cart.svg');
+}
+
+.seogun-chip-head.seogun-chip-date
+{
+  background-image: url('./icons/calendar.svg');
+}
+
+.seogun-chip-head.seogun-chip-event
+{
+  background-image: url('./icons/calendar-check.svg');
+}
+
+.seogun-chip-head.seogun-chip-location
+{
+  background-image: url('./icons/map-marker.svg');
+}
+
+.seogun-chip-head.seogun-chip-organization
+{
+  background-image: url('./icons/building.svg');
+}
+
+.seogun-chip-head.seogun-chip-quantity
+{
+  background-image: url('./icons/tally.svg');
+}
+
+
+.seogun-chip-head.seogun-chip-trend
+{
+  background-image: url('./icons/google.svg');
+}
+
+
+.seogun-chip-head.seogun-chip-title
+{
+  background-image: url('./icons/flag-alt.svg');
+}
+
+#seogun_nextstep{
+   display: none;
+   padding-right: 15px;
+   float: right;
+   padding-top: 21px;
+}
+
+.rtl #seogun_nextstep{
+  float: left;;
+  padding-left: 15px;
+}
+
+#seogun-tags-select{
+  display: none;
+}
+
+
+#seogun_final_step_animated
+{
+  width: 50px;
+  margin: auto;
+  color: silver;
+}
+
+#seogun_final_step_text{
+  font-weight: normal;
+  color: gray;
+}

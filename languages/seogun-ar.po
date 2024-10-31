@@ -1,0 +1,242 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SEO Gun\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-07 22:23+0000\n"
+"PO-Revision-Date: 2020-05-07 22:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.4.1"
+
+#: includes/settings.class.php:16 includes/settings.class.php:34
+msgid "SEO Gun Settings"
+msgstr "إعدادت SEO Gun"
+
+#. Name of the plugin
+#. Author of the plugin
+#: includes/settings.class.php:17
+msgid "SEO Gun"
+msgstr ""
+
+#: includes/settings.class.php:53
+msgid "Plugin Settings"
+msgstr "إعدادت الإضاف"
+
+#: includes/settings.class.php:63
+msgid "Token"
+msgstr "رمز التأكيد Token"
+
+#: includes/settings.class.php:70
+#, php-format
+msgid ""
+"You don't have token yet? <a href=\"https://seogun.io/actions/?"
+"action=signup&domain=%s\" target=\"_blank\">Click here to signup.</a>"
+msgstr ""
+"ليس لديك رمز دخول؟ <a href=\"https://seogun.io/actions/?"
+"action=signup&domain=%s\" target=\"_blank\">إضغط هنا للحصول علي رمز دخول "
+"الآن</a>"
+
+#: includes/settings.class.php:78
+msgid "Your Content Language"
+msgstr "لغة المحتوي"
+
+#: includes/settings.class.php:99 includes/settings.class.php:229
+msgid ""
+"Please select your article language, We are using this language to analyze "
+"your content."
+msgstr ""
+"يرجي إختيار لغة المقالات لديك. نحن نستخدم هذه اللغة لتحليل نوع مقالك وإيجاد "
+"الوسوم المرتبطة به"
+
+#: includes/settings.class.php:115
+msgid "Entities Settings"
+msgstr "خصائص الأعلام"
+
+#: includes/settings.class.php:130
+msgid "Entity Types"
+msgstr "أنواع الأعلام"
+
+#: includes/settings.class.php:137
+msgid "Products"
+msgstr "المنتجات"
+
+#: includes/settings.class.php:139
+msgid "Detect any product name in your content."
+msgstr "البحث عن المنتجات مثال : أيفون "
+
+#: includes/settings.class.php:143
+msgid "Date"
+msgstr "التواريخ"
+
+#: includes/settings.class.php:145
+msgid ""
+"Detect any date like: (11/25/2017), day (Tuesday), month (May), or time (8:"
+"30 a.m.)."
+msgstr "البحث عن التواريخ مثل اسماء الايام والشهور "
+
+#: includes/settings.class.php:149
+msgid "Events"
+msgstr "المناسابات"
+
+#: includes/settings.class.php:151
+msgid "Detect events, such as a festival, concert, election, etc."
+msgstr "البحث عن المناسبات مثل المؤتمرات والإحتفالات"
+
+#: includes/settings.class.php:155
+msgid "Locations"
+msgstr "الأماكن"
+
+#: includes/settings.class.php:157
+msgid ""
+"Detect A specific location, such as a country, city, lake, building, etc."
+msgstr "البحث عن الأماكن مثل أسماء الدول والمدن والمباني الشهيرة"
+
+#: includes/settings.class.php:162
+msgid "Organizations"
+msgstr "المؤسسات"
+
+#: includes/settings.class.php:164
+msgid ""
+"Detect large organizations, such as a government, company, religion, sports "
+"team, etc."
+msgstr "البحث عن أسماء المؤسسات والشركات"
+
+#: includes/settings.class.php:169
+msgid "Persons"
+msgstr "الأشخاص"
+
+#: includes/settings.class.php:171
+msgid "Detect Individuals, groups of people, nicknames, fictional characters."
+msgstr "البحث عن أسماء الأشخاص وألقابهم"
+
+#: includes/settings.class.php:176
+msgid "Titles"
+msgstr "الأسماء والألقاب"
+
+#: includes/settings.class.php:178
+msgid ""
+"Detect an official name given to any creation or creative work, such as "
+"movies, books, songs, etc."
+msgstr "البحث عن العناوين المشهورة مثل أسماء الأفلام والكتب"
+
+#: includes/settings.class.php:183
+msgid "Other"
+msgstr "أخري"
+
+#: includes/settings.class.php:185
+msgid "Entities that don't fit into any of the other entity categories"
+msgstr "أعلام هامة ولكنها غير تابعة للتصنيفات بالأعلي مثال : فايروس كورون"
+
+#: includes/settings.class.php:203
+msgid "Google Trends Settings"
+msgstr "إعدادت محرك البحث Google"
+
+#: includes/settings.class.php:216
+msgid "Google Country"
+msgstr "دولة محرك البحث Google"
+
+#: includes/settings.class.php:254
+msgid "Ratings & Reviews"
+msgstr "تقييم الإضافة"
+
+#: includes/settings.class.php:256
+msgid "If you like <strong>SEOGun</strong> please consider leaving a"
+msgstr "إذا أعجبتك الإضافة يرجي تقييمنا "
+
+#: includes/settings.class.php:256
+msgid "rating."
+msgstr ". "
+
+#: includes/settings.class.php:256
+msgid "A huge thanks in advance!"
+msgstr "نشكركم مقدما"
+
+#: includes/settings.class.php:257
+msgid "Leave a rating"
+msgstr "أضف تقييمك"
+
+#: includes/settings.class.php:262 includes/settings.class.php:266
+msgid "Upgrade Now"
+msgstr "قم بالترقية الآن"
+
+#: includes/settings.class.php:264
+msgid "Enjoy the premium features."
+msgstr "إستمتع بمزايا إضافية"
+
+#: includes/settings.class.php:265
+msgid ""
+"Upgrade your account now and benefit out of our amazing premium features."
+msgstr "قم بالترقية الآن وتمتع بمميزات إضافية"
+
+#: includes/html.php:15
+msgid "Select link types:"
+msgstr "إختر نوع الوسو"
+
+#: includes/html.php:22
+msgid "Tags"
+msgstr "الوسوم"
+
+#: includes/html.php:26
+msgid "Entities"
+msgstr "الأعلام"
+
+#: includes/html.php:30
+msgid "Google Trends"
+msgstr "الكلمات الأكثر بحثاً في جوجل"
+
+#: includes/html.php:36 includes/html.php:43
+msgid "Generate Tags"
+msgstr "البحث عن الوسو"
+
+#: includes/html.php:61
+msgid "We are porcceing your article content now:"
+msgstr "نقوم الآن بتحليل محتوي المقال:"
+
+#: includes/html.php:66
+msgid "Validate your plugin token."
+msgstr "التحقق من رمز التأكيد Token"
+
+#: includes/html.php:71
+#, php-format
+msgid "Compare your article content to all your tags <small>( %s tag)</small>."
+msgstr "البحث في الوسوم المضافة بموقعك <small>( %s وسم)</small>."
+
+#: includes/html.php:76
+msgid "Entities generating process."
+msgstr ""
+"البحث في محتوي المقال عن الأعلام مثل (الأماكن وأسماء الأشخاص والشركات)."
+
+#: includes/html.php:81
+msgid "Check if your article matched with Goolge Trends keywords."
+msgstr "مقارنة محتوي المقال مع الكلمات الأكثر بحثاً في جوجل"
+
+#: includes/html.php:86
+msgid "Remove unwanted tags:"
+msgstr "إزالة الوسوم الغير مرغوب بها"
+
+#: includes/html.php:91
+msgid "Next Step"
+msgstr "الخطوة التالية"
+
+#: includes/html.php:93
+msgid "Network error. Please try again later."
+msgstr "عذراً هناك خطأ يرجي المحاولة لاحقاً"
+
+#. Description of the plugin
+msgid ""
+"AI based wordpress plugin that help's you to enhance your SEO by linking all "
+"your article togther."
+msgstr ""
+"نقوم بتحسين مستوي موقعك بمحركات البحث بالإعتماد علي تقنيات الذكاء الإصطناعي"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://seogun.io"
+msgstr ""
